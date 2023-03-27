@@ -1,0 +1,17 @@
+{
+  "output_file": "settings.json",
+  "Users": {
+    "type": "textbox",
+    "value": "Channel1, Channel2, Channel3",
+    "label": "Channels list",
+    "tooltip": "List of all channels that are eligible to the autoso",
+    "group": "Core"
+  },
+  "Command": {
+    "type": "textbox",
+    "value": "so",
+    "label": "Command name",
+    "tooltip": "Your shutout command (without !)",
+    "group": "Core"
+  }
+}
