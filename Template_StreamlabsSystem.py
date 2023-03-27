@@ -54,7 +54,8 @@ def Execute(data):
 
     userName = getUserName(data.RawData)
     if data.IsChatMessage() and userName in users :
-        users = users.remove(userName)
+        users.remove(userName)
+        Log(' '.join(users))
         Parent.SendStreamMessage("!" + ScriptSettings.Command + " " + userName)
    
     return
